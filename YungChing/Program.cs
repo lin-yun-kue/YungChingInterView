@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using YungChing.EFModel;
+using YungChing.Service;
+using YungChing.Service.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<CompanyContext>(options => options.UseSqlite());
+
+builder.Services.AddTransient<ICompanyService, CompanyService>();
 
 var app = builder.Build();
 

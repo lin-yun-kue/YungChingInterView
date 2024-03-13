@@ -8,7 +8,6 @@ namespace YungChing.EFModel
     public class CompanyContext : DbContext
     {
         public DbSet<Company> Company { get; set; }
-        public DbSet<Employee> Employees { get; set; }
         public string DbPath { get; }
 
         public CompanyContext(DbContextOptions<CompanyContext> options) : base(options)
@@ -30,16 +29,6 @@ namespace YungChing.EFModel
     {
         public int Id { get; set; }
         public string Name { get; set; }
-
-        public List<Employee> employees { get; set; }
-    }
-
-    public class Employee
-    {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public string Name { get; set; }
-
-        public Company Company { get; set; }
+        public string Phone { get; set; }
     }
 }
