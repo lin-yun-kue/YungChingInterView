@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "n9eJm6DrFY01nVcpzgXWq2Xd5kMnI5cV/gG6OsAOLirsR7o2zo0dqDwj2m8mNFBvLqqQOekZMpAyxzh92Mp6Dg==",
+  "dgSpecHash": "F6zVGVHmOuvfBSv0KriDnvarnGlJTpxzJE5dhOwXScyiVZYHth1NA9SOfSS4nuzLF5vr4qD8E5QN4w5jY18dyg==",
   "success": true,
   "projectFilePath": "C:\\Project\\YungChing\\YungChing\\YungChing.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\b4088\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.17\\microsoft.entityframeworkcore.abstractions.7.0.17.nupkg.sha512",
     "C:\\Users\\b4088\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.17\\microsoft.entityframeworkcore.analyzers.7.0.17.nupkg.sha512",
     "C:\\Users\\b4088\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.17\\microsoft.entityframeworkcore.relational.7.0.17.nupkg.sha512",
+    "C:\\Users\\b4088\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.17\\microsoft.entityframeworkcore.sqlite.7.0.17.nupkg.sha512",
     "C:\\Users\\b4088\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.17\\microsoft.entityframeworkcore.sqlite.core.7.0.17.nupkg.sha512",
     "C:\\Users\\b4088\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\b4088\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
@@ -22,7 +23,10 @@
     "C:\\Users\\b4088\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\b4088\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\b4088\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\b4088\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\b4088\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\b4088\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\b4088\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\b4088\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\b4088\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\b4088\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

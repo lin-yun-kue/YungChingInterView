@@ -1,5 +1,6 @@
 ﻿
 
+
 using Microsoft.EntityFrameworkCore;
 
 namespace YungChing.EFModel
@@ -10,7 +11,8 @@ namespace YungChing.EFModel
         public DbSet<Employee> Employees { get; set; }
         public string DbPath { get; }
 
-        public CompanyContext() {
+        public CompanyContext(DbContextOptions<CompanyContext> options) : base(options)
+        {
 
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
